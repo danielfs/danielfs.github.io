@@ -7,10 +7,15 @@
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
 	<title>Nutrição e Dietética</title>
 	<style>
-		iframe {
-			border: 1px solid black;
-			width: 100%; /* takes precedence over the width set with the HTML width attribute */
-			height: 100%;
+		body{
+			margin: 0; /* Remove default margin */
+		}
+		iframe{      
+			display: block;  /* iframes are inline by default */   
+			height: 100vh;  /* Set height to 100% of the viewport height */   
+			width: 100vw;  /* Set width to 100% of the viewport width */     
+			border: none; /* Remove default border */
+			background: lightyellow; /* Just for styling */
 		}
 	</style>
 </head>
